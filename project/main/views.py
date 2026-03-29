@@ -32,4 +32,4 @@ def car_detail(request, car_id):
 
 
 def about(request: HttpRequest):
-    return HttpResponse('Biz haqimizda')
+    return render(request, 'main/about.html')
